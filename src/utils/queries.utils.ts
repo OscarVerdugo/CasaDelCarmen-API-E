@@ -1,0 +1,1 @@
+export const q_profiles_by_user = "SELECT P.name FROM user_profiles AS UP LEFT JOIN profiles AS P ON UP.profile_id = P.id WHERE ?";

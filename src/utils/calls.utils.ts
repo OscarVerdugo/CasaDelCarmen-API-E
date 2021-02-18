@@ -1,0 +1,11 @@
+export const c_check_email_already_exists = "SP_Check_Email_Already_Exists(:email);";
+export const c_check_employee_has_user = "SP_Check_Employee_Has_User(:employee_id);";
+export const c_create_user = "SP_Create_User(:email, :password, :employee_id);";
+export const c_login_user = "SP_Login_User(:email);";
+export const c_user_profiles = "SP_User_Profiles(:user_id,:platform);";
+export const c_store_admission = "SP_Store_Admission(:first_name, :paternal_surname, :maternal_surname, :birthday, :gender, :marital_status, :sons, :brothers, :all_agree, :native_city_id, :mobile_phone, :home_phone, :employment_id, :ssn, :health_institution, :social_program, :scholarship_id, :religion_id, :street, :house_number, :suburb, :city_id, :state_id, :comments, :creation_user_id,:area_id);";
+export const c_show_index_admission_application = "SP_ShowIndex_Admission_Application(:admission_id,:take,:offset);";
+export const c_store_patient = "SP_StoreUpdate_Patient(:patient_id,:first_name, :paternal_surname, :maternal_surname, :birthday, :gender, :marital_status, :sons, :brothers, :all_agree, :native_city_id, :mobile_phone, :home_phone, :employment_id, :ssn, :health_institution, :social_program, :scholarship_id, :religion_id, :street, :house_number, :suburb, :city_id, :state_id, :comments, :creation_user_id);";
+export const c_update_patient = "SP_StoreUpdate_Patient(:patient_id,:first_name, :paternal_surname, :maternal_surname, :birthday, :gender, :marital_status, :sons, :brothers, :all_agree, :native_city_id, :mobile_phone, :home_phone, :employment_id, :ssn, :health_institution, :social_program, :scholarship_id, :religion_id, :street, :house_number, :suburb, :city_id, :state_id, :comments, :update_user_id);";
+export const c_delete_patient = "SP_Delete_Patient(:patient_id,:user_id);";
+export const c_show_index_patient = "SP_ShowIndex_Patient(:patient_id,:take,:offset);";

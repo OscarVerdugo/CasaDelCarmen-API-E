@@ -1,0 +1,23 @@
+export default interface Contact{
+  id?:number,
+  patient_id?:number,
+  name:string,
+  lastname:string,
+  familiar_relationship:string,
+  home_phone?:string,
+  mobile_phone?:string,
+  street:string,
+  house_number:string,
+  suburb:string,
+  city_id:number,
+  city_name?:string,
+  state_id:number,
+  state_name?:string,
+  active:boolean,
+  creation_user_id:number,
+  creation_user_email?:string,
+  update_user_id:number,
+  update_user_email?:string,
+  created_at:Date,
+  updated_at?:Date
+}
